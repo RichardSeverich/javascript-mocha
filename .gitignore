@@ -1,0 +1,12 @@
+# exclude folder
+/node_modules/
+package-lock.json
+# exclude everything within the folder
+reports/*
+screenshots/*
+logs/*
+# exceptions rules
+!reports/README.txt
+!screenshots/README.txt
+!logs/README.txt
+

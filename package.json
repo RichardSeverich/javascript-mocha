@@ -1,0 +1,20 @@
+{
+  "name": "rm-mocha",
+  "version": "1.0.0",
+  "description": "api testing for standalone",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.js --reporter mocha-simple-html-reporter --reporter-options output=reports/report.html",
+	"test-rm-advantage": "mocha test/rm_advantage/*.js --reporter mocha-simple-html-reporter --reporter-options output=reports/report-rm-advantage.html",
+    "test-rm-essentials": "mocha test/rm_essentials/*.js --reporter mocha-simple-html-reporter --reporter-options output=reports/report-essentials.html"
+  },
+  "author": "O&D QA Team",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "3.5.0",
+    "mocha": "6.0.2",
+    "mocha-simple-html-reporter": "1.1.0",
+    "request": "2.88.0",
+    "should": "10.0.0"
+  }
+}
