@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha test/**/*.js --reporter mocha-simple-html-reporter --reporter-options output=reports/report.html",
-	"test-rm-advantage": "mocha test/rm_advantage/*.js --reporter mocha-simple-html-reporter --reporter-options output=reports/report-rm-advantage.html",
+    "test-rm-advantage": "mocha test/rm_advantage/*.js --reporter mocha-simple-html-reporter --reporter-options output=reports/report-rm-advantage.html",
     "test-rm-essentials": "mocha test/rm_essentials/*.js --reporter mocha-simple-html-reporter --reporter-options output=reports/report-essentials.html"
   },
   "author": "O&D QA Team",

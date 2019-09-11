@@ -4,7 +4,7 @@ const expect = require("chai").expect;
 const baseUrl = "https://swapi.co/api";
 const util = require("util");
 
-describe('returns luke', function() {
+describe('001-test', function() {
     it('returns luke', function(done) {
         request.get({ url: baseUrl + '/people/1/' },
             function(error, response, body) {
